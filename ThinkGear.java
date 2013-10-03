@@ -74,7 +74,7 @@ import java.io.*;
 public class ThinkGear {
     
     /* Load DLL library */
-    static { System.loadLibrary("thinkgear"); }
+    static { System.load("C:\\windows\\system32\\thinkgear.dll"); }
 
     private ThinkGear() {} /* Prevent instantiation of a ThinkGear instance */
 
